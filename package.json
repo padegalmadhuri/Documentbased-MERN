@@ -1,30 +1,47 @@
 {
-  "name": "httpfsjs-react",
-  "version": "0.1.0",
-  "proxy": "http://localhost:80",
-  "private": true,
-  "dependencies": {
-    "axios": "^0.18.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
-    "react-dropzone": "^6.0.2",
-    "react-router": "^4.3.1",
-    "react-router-dom": "^4.3.1",
-    "react-scripts": "2.0.3"
-  },
+  "name": "serverfile",
+  "version": "1.0.0",
+  "description": "An example of a MERN stack file upload server+client.",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "repository": {
+    "type": "git",
+
   },
-  "browserslist": [
-    ">0.2%",
-    "not dead",
-    "not ie <= 11",
-    "not op_mini all"
-  ]
+  "keywords": [
+    "MERN",
+    "react",
+    "node",
+    "mongo",
+    "mongoose",
+    "mongodb",
+    "expressjs"
+  ],
+  "author":"Madhuri",
+  "license": "ISC",
+}
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "express-validator": "^5.3.0",
+    "gridfs-stream": "^1.1.1",
+    "jsonwebtoken": "^8.3.0",
+    "method-override": "^3.0.0",
+    "mongoose": "^5.2.17",
+    "multer": "^1.4.0",
+    "multer-gridfs-storage": "^3.2.3",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  }
 }
